@@ -47,7 +47,9 @@
             
             .sideBarItem { flex: 1 0 0; border: 0px solid green;}
             .mainContentItem { flex: 3 0px;}
-            
+            .sideBarLeftItem { order: 1;}
+            .mainContentItem { order: 2;}
+            .sideBarRightItem { order: 3;}
         </style>
     </head>
     <body>
@@ -57,6 +59,14 @@
                 <article>
                     <h2>First Article</h2>
                     <p>Tacos actually microdosing, pour-over semiotics banjo chicharrones</p>
+                </article>
+                <article>
+                    <h2>Second Article</h2>
+                    <p>We are in the second article</p>
+                </article>
+                <article>
+                    <h2>Third Article</h2>
+                    <p>We are in the third article</p>
                 </article>
             </section>
             <sidebar class="sideBarItem sideBarLeftItem"><div class="center"><p>Left Side Bar</p></div></sidebar>
